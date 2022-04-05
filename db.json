@@ -1,0 +1,25 @@
+{
+  "product": [
+    {
+      "id": 1,
+      "name": "Md Abu Raihan",
+      "author_photo": "https://developerraihan.com/wp-content/uploads/2021/10/MG_2165-01-1555x2048.jpeg",
+      "post_content": "বেশি নৈকট্য দূরত্বের সৃষ্টি করে। প্রিয়জনদের থেকে তাই দূরে থাকাই ভাল। সম্পর্ক স্থির নয়, পরিবর্তনশীল।🥰❤️",
+      "post_photo": "https://developerraihan.com/wp-content/uploads/2021/10/MG_2165-01-1555x2048.jpeg"
+    },
+    {
+      "name": "Md Achem ",
+      "author_photo": "https://developerraihan.com/wp-content/uploads/2021/10/240637624_563925501515137_6582963699950076138_n.jpg",
+      "post_content": "Hello Md achem",
+      "post_photo": "https://developerraihan.com/wp-content/uploads/2021/10/240637624_563925501515137_6582963699950076138_n.jpg",
+      "id": 2
+    },
+    {
+      "name": "MD Abu Sayeed",
+      "author_photo": "https://developerraihan.com/wp-content/uploads/2021/10/62027384_497193174152466_68075218756698112_n.jpg",
+      "post_content": "Hello Md Abu Sayeed ",
+      "post_photo": "https://developerraihan.com/wp-content/uploads/2021/10/62027384_497193174152466_68075218756698112_n.jpg",
+      "id": 3
+    }
+  ]
+}

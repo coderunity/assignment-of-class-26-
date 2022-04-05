@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+   <!-- cratct a post -->
+
+   <section class="creact-post">
+    <div class="container my-5">
+        <div class="row justify-content-center">
+            <div class="col-md-5">
+                <div class="card shadow">
+                    <div class="card-body">
+                        <div class="user-post">
+                            <img src="https://developerraihan.com/wp-content/uploads/2021/10/MG_2165-01-1555x2048.jpeg" alt="">
+                            <button class="ms-1"data-bs-toggle="modal" data-bs-target="#user_modal">What's on your mind, Md. Abu?</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+   </section>
+
+    <!-- post timeline section -->
+
+    <section class="post-timeline-section">
+        <div class="container my-5">
+            <div class="row justify-content-center">
+                <div id="timeline_post_loaded" class="col-md-5">
+
+                   
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- modal all document -->
+
+    <div class="modal fade" id="user_modal">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5>Filap This From</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="msg"></div>
+                    <form id="timelineForm_data" method="POST">
+                        
+                        <div class="my-2">
+                            <input name="name" type="text" class="form-control" placeholder="User name">
+                        </div>
+
+                        <div class=" my-2">
+                            <input name="aphoto" type="text" class="form-control" placeholder="Author photo">
+                        </div>
+
+                        <div class="my-2">
+                            <input name="content" type="text" class="form-control" placeholder="User content">
+                        </div>
+
+                        <div class="my-2">
+                            <input name="photo" type="text" class="form-control" placeholder="Post photo">
+                        </div>
+    
+                        <div class="my-2">
+                            <input type="submit" class="btn btn-primary w-100" value="Post" >
+                        </div>
+    
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    
+
+    <script src="../public/index.html"></script>
+
+</body>
+</html>
